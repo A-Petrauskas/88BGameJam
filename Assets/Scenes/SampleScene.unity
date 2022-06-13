@@ -164,7 +164,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.19215688, g: 0.4745098, b: 0.26960692, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -265,25 +265,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Deer
       objectReference: {fileID: 0}
+    - target: {fileID: 8334852020910528740, guid: 045be4c86ec4f2e40b5974729e81a44d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 465042954, guid: 37a78c576a5ce78adaf677f250d18cdc, type: 3}
     - target: {fileID: 8334852020910528742, guid: 045be4c86ec4f2e40b5974729e81a44d, type: 3}
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8334852020910528742, guid: 045be4c86ec4f2e40b5974729e81a44d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8334852020910528742, guid: 045be4c86ec4f2e40b5974729e81a44d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8334852020910528742, guid: 045be4c86ec4f2e40b5974729e81a44d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.234
+      value: 0.74
       objectReference: {fileID: 0}
     - target: {fileID: 8334852020910528742, guid: 045be4c86ec4f2e40b5974729e81a44d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.013
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8334852020910528742, guid: 045be4c86ec4f2e40b5974729e81a44d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -326,6 +330,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8388033843772033329, guid: 592f5a4ceae49694b80de572aa949488, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8388033843772033329, guid: 592f5a4ceae49694b80de572aa949488, type: 3}
       propertyPath: m_Sprite
       value: 
